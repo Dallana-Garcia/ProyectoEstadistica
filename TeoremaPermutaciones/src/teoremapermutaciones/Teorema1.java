@@ -130,7 +130,6 @@ public class Teorema1 extends javax.swing.JFrame {
         double valor1 = Double.parseDouble( numero1.getText());
         txtResultado.setText("fact (" +valor1+ ")");
         int b;
-        
         for(b =1; b<=valor1; b++) {
         a = a*b;
         }
@@ -150,13 +149,8 @@ public class Teorema1 extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         txtResultado.setText("");
         numero1.setText("");
-
-
     }//GEN-LAST:event_jButton2ActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">

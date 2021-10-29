@@ -419,7 +419,9 @@ public class Menu extends javax.swing.JFrame {
     }//GEN-LAST:event_btn10ActionPerformed
 
     private void btn12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn12ActionPerformed
-        // TODO add your handling code here:
+        Teorema12 abrir=new Teorema12 ();
+        abrir.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_btn12ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
