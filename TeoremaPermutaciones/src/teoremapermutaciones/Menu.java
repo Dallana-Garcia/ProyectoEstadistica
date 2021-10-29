@@ -359,7 +359,7 @@ public class Menu extends javax.swing.JFrame {
     }//GEN-LAST:event_btn4ActionPerformed
 
     private void btn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn8ActionPerformed
-        Teorema8 abrir=new Teorema8();
+        MenuTeorema8 abrir=new MenuTeorema8();
         abrir.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_btn8ActionPerformed
