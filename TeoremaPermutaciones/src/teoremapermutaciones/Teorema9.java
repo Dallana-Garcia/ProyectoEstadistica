@@ -238,7 +238,8 @@ public class Teorema9 extends javax.swing.JFrame {
     private javax.swing.JTextField numero2;
     private javax.swing.JTextField txtResultado;
     // End of variables declaration//GEN-END:variables
-class TeoremaPermutaciones extends JPanel {
+
+    class TeoremaPermutaciones extends JPanel {
         //ATRIBUTOS
         private Image Imagen;
         @Override

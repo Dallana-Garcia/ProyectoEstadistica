@@ -353,7 +353,7 @@ public class Menu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn4ActionPerformed
-        Teorema4 abrir=new Teorema4();
+        Teorema_4menu abrir=new Teorema_4menu ();
         abrir.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_btn4ActionPerformed
@@ -371,7 +371,7 @@ public class Menu extends javax.swing.JFrame {
     }//GEN-LAST:event_btn9ActionPerformed
 
     private void btn11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn11ActionPerformed
-        Teorema11 abrir=new Teorema11 ();
+        MenuTeorema11 abrir=new MenuTeorema11 ();
         abrir.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_btn11ActionPerformed
@@ -389,23 +389,33 @@ public class Menu extends javax.swing.JFrame {
     }//GEN-LAST:event_btn2ActionPerformed
 
     private void btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn3ActionPerformed
-        // TODO add your handling code here:
+        Teorema_3 abrir=new Teorema_3 ();
+        abrir.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_btn3ActionPerformed
 
     private void btn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn5ActionPerformed
-        // TODO add your handling code here:
+        Teorema_5menu abrir=new Teorema_5menu ();
+        abrir.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_btn5ActionPerformed
 
     private void btn6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn6ActionPerformed
-        // TODO add your handling code here:
+        Teorema6 abrir=new Teorema6 ();
+        abrir.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_btn6ActionPerformed
 
     private void btn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn7ActionPerformed
-        // TODO add your handling code here:
+        Teorema_7 abrir=new Teorema_7 ();
+        abrir.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_btn7ActionPerformed
 
     private void btn10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn10ActionPerformed
-        // TODO add your handling code here:
+        Teorema_10 abrir=new Teorema_10 ();
+        abrir.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_btn10ActionPerformed
 
     private void btn12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn12ActionPerformed

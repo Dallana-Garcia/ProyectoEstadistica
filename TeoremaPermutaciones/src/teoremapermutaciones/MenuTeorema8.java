@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package teoremapermutaciones;
 
 import java.awt.Graphics;
@@ -10,10 +6,7 @@ import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 
-/**
- *
- * @author sgarc
- */
+
 public class MenuTeorema8 extends javax.swing.JFrame {
     TeoremaPermutaciones fondo = new TeoremaPermutaciones ();
 
@@ -46,6 +39,8 @@ public class MenuTeorema8 extends javax.swing.JFrame {
         jButton16 = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
         jButton3 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -72,7 +67,7 @@ public class MenuTeorema8 extends javax.swing.JFrame {
                 jButton9ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 110, 120, 120));
+        jPanel1.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 200, 120, 120));
 
         jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Numeros/-4.png"))); // NOI18N
         jButton10.setText("Datos");
@@ -87,7 +82,7 @@ public class MenuTeorema8 extends javax.swing.JFrame {
                 jButton10ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 110, 120, 120));
+        jPanel1.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 200, 120, 120));
 
         jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Numeros/-3.png"))); // NOI18N
         jButton11.setText("Datos");
@@ -102,7 +97,7 @@ public class MenuTeorema8 extends javax.swing.JFrame {
                 jButton11ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 110, 130, 120));
+        jPanel1.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 200, 130, 120));
 
         jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Numeros/-2.png"))); // NOI18N
         jButton12.setText("Datos");
@@ -117,7 +112,7 @@ public class MenuTeorema8 extends javax.swing.JFrame {
                 jButton12ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 110, 120, 120));
+        jPanel1.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 200, 120, 120));
 
         jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Numeros/-6.png"))); // NOI18N
         jButton13.setText("Datos");
@@ -132,7 +127,7 @@ public class MenuTeorema8 extends javax.swing.JFrame {
                 jButton13ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 230, 120, 120));
+        jPanel1.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 320, 120, 120));
 
         jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Numeros/-7.png"))); // NOI18N
         jButton14.setText("Datos");
@@ -147,7 +142,7 @@ public class MenuTeorema8 extends javax.swing.JFrame {
                 jButton14ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 230, 130, 120));
+        jPanel1.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 320, 130, 120));
 
         jButton15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Numeros/-8.png"))); // NOI18N
         jButton15.setText("Datos");
@@ -162,7 +157,7 @@ public class MenuTeorema8 extends javax.swing.JFrame {
                 jButton15ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 230, 120, 120));
+        jPanel1.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 320, 120, 120));
 
         jButton16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Numeros/-9.png"))); // NOI18N
         jButton16.setText("Datos");
@@ -177,7 +172,7 @@ public class MenuTeorema8 extends javax.swing.JFrame {
                 jButton16ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 230, 120, 120));
+        jPanel1.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 320, 120, 120));
 
         jLabel7.setFont(new java.awt.Font("Ebrima", 1, 48)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(153, 0, 0));
@@ -194,6 +189,15 @@ public class MenuTeorema8 extends javax.swing.JFrame {
         });
         jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 10, -1, -1));
 
+        jLabel1.setFont(new java.awt.Font("Corbel", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel1.setText("Elija la cantidad de datos que desea operar el teorema 8:");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 170, -1, -1));
+
+        jLabel2.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel2.setText("P ( A U B ) = P (A) + P (B)");
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 110, -1, -1));
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -202,7 +206,7 @@ public class MenuTeorema8 extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 406, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 454, Short.MAX_VALUE)
         );
 
         pack();
@@ -315,6 +319,8 @@ public class MenuTeorema8 extends javax.swing.JFrame {
     private javax.swing.JButton jButton16;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton9;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
